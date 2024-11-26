@@ -52,7 +52,7 @@ const ViewProfile = () => {
   return (
     <div className="view-profile">
       <header className="profile-header">
-        <p className="user-email">Usuario: {userEmail}</p>
+        <p className="user-email">CUENTA🃏 {userEmail}</p>
         <input
           type="text"
           placeholder="Buscar..."
@@ -61,18 +61,18 @@ const ViewProfile = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button className="header-button" onClick={handleUploadClick}>
-          Subir video
+          SUBIR🃏
         </button>
         <button className="header-button" onClick={handleGoToDashboard}>
-          Ir al Dashboard
+          VOLVER AL INICIO🃏
         </button>
         <button className="logout-button" onClick={handleLogout}>
-          Cerrar sesión
+          CERRAR SESION 🃏
         </button>
       </header>
 
       <main className="video-grid">
-        <h2>Mis Videos</h2>
+        <h2>🃏MIS VIDEOS🃏</h2>
         {filteredVideos.length > 0 ? (
           filteredVideos.map((video) => (
             <div key={video._id} className="video-card">

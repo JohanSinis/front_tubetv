@@ -129,7 +129,7 @@ const Dashboard = () => {
           <div className="dashboard-content">
             <form onSubmit={handleSubmit} className="dashboard-form">
               <div className="upload-section">
-                <label htmlFor="file-upload">Subir un archivo (video, imagen, etc.):</label>
+                <label htmlFor="file-upload">SUBIR ARCHIVO (mp4, jpg, png...):</label>
                 <input
                   ref={fileInputRef}
                   type="file"
@@ -142,11 +142,11 @@ const Dashboard = () => {
                     <>
                       {renderPreview()}
                       <button type="button" onClick={handleFileRemove} className="remove-button">
-                        Eliminar
+                        ELIMINAR
                       </button>
                     </>
                   ) : (
-                    <p style={{ color: '#999' }}>Aquí se mostrará la vista previa del archivo.</p>
+                    <p style={{ color: '#999' }}>VISTA PREVIA</p>
                   )}
                 </div>
               </div>
@@ -197,7 +197,7 @@ const Dashboard = () => {
 
             <div className="go-to-login-section">
               <button className="go-to-login-button" onClick={handleGoToDashboardMain}>
-                Volver al dashboard
+                VOLVER AL INICIO
               </button>
             </div>
           </div>

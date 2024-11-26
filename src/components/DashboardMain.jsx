@@ -46,7 +46,7 @@ const DashboardMain = () => {
   return (
     <div className="dashboard-main">
       <header className="dashboard-header">
-        <button className="header-button">Inicio</button>
+        <button className="header-button">🃏INICIO🃏</button>
         <input
           type="text"
           placeholder="Buscar..."
@@ -55,13 +55,13 @@ const DashboardMain = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button className="header-button" onClick={handleUploadClick}>
-          Subir video
+          SUBIR VIDEOS
         </button>
         <button className="header-button" onClick={handleProfileClick}>
-          Mi perfil
+          🗣️ PERFIL
         </button>
         <button className="logout-button" onClick={handleLogout}>
-          Cerrar sesión
+          CERRAR SESION↪️
         </button>
       </header>
 

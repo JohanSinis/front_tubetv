@@ -4,8 +4,8 @@
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    background-color: #fdf6fb; /* Fondo suave pastel */
+    border: 1px solid #dba4c0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -17,18 +17,20 @@
 
 .dashboard-header h1 {
     font-size: 28px;
-    color: #007BFF; /* Azul para los encabezados */
+    font-family: 'Oswald', sans-serif;
+    color: #dba4c0; /* Rosa pastel */
     margin-bottom: 10px;
 }
 
 .dashboard-header p {
     font-size: 16px;
-    color: #555; /* Texto en gris para el correo */
+    font-family: 'Poppins', sans-serif;
+    color: #555555; /* Texto gris oscuro */
     margin: 0;
 }
 
 .dashboard-content {
-    background-color: #f9f9f9;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
     padding: 20px;
     border-radius: 8px;
     display: flex;
@@ -36,21 +38,19 @@
     gap: 20px;
 }
 
-.upload-section {
-    margin-bottom: 20px;
-}
-
 .upload-section label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #007BFF; /* Azul para etiquetas */
+    font-family: 'Poppins', sans-serif;
+    color: #8c3c76; /* Morado suave */
 }
 
 .upload-section input {
     display: block;
     margin-top: 10px;
     font-size: 14px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .file-preview {
@@ -66,7 +66,7 @@
     max-width: 100%;
     max-height: 200px;
     margin-top: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #dba4c0;
     border-radius: 8px;
     object-fit: cover;
 }
@@ -84,10 +84,11 @@
 }
 
 .remove-button {
-    background-color: #ff4d4d;
+    background-color: #7c146b; /* Rojo intenso */
     color: white;
     border: none;
     padding: 5px 15px;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
     font-size: 14px;
     border-radius: 5px;
@@ -95,19 +96,14 @@
 }
 
 .remove-button:hover {
-    background-color: #ff1a1a;
-}
-
-.input-group {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
+    background-color: #b30e37; /* Rojo más oscuro */
 }
 
 .input-group label {
     margin-bottom: 8px;
     font-weight: bold;
-    color: #007BFF;
+    font-family: 'Poppins', sans-serif;
+    color: #8c3c76; /* Morado suave */
 }
 
 .input-group input,
@@ -115,16 +111,17 @@
     width: 100%;
     padding: 10px;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #dba4c0;
     transition: border-color 0.3s;
 }
 
 .input-group input:focus,
 .input-group textarea:focus {
-    border-color: #007BFF;
+    border-color: #dba4c0;
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    box-shadow: 0 0 5px rgba(219, 164, 192, 0.5);
 }
 
 textarea {
@@ -132,8 +129,9 @@ textarea {
 }
 
 .submit-button {
-    background-color: #4CAF50;
+    background-color: #8c3c76; /* Morado oscuro */
     color: white;
+    font-family: 'Oswald', sans-serif;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -143,7 +141,7 @@ textarea {
 }
 
 .submit-button:hover {
-    background-color: #45a049;
+    background-color: #702f5e; /* Morado más oscuro */
 }
 
 .submit-button:disabled {
@@ -152,21 +150,17 @@ textarea {
 }
 
 .error-message {
-    color: red;
+    color: #b30e37; /* Rojo oscuro */
     font-size: 14px;
     margin-top: -10px;
     margin-bottom: 10px;
 }
 
-.interaction-section {
-    margin-top: 30px;
-    text-align: center;
-}
-
 .interaction-button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #8c3c76; /* Morado oscuro */
     color: white;
+    font-family: 'Oswald', sans-serif;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -175,15 +169,16 @@ textarea {
 }
 
 .interaction-button:hover {
-    background-color: #0056b3;
+    background-color: #702f5e;
 }
 
 .file-select-button {
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #dba4c0; /* Rosa pastel */
     color: white;
     border: none;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     border-radius: 5px;
     text-align: center;
     display: inline-block;
@@ -193,18 +188,10 @@ textarea {
     pointer-events: none;
 }
 
-.file-select-button:hover {
-    background-color: #007BFF;
-}
-
-.go-to-login-section {
-    margin-top: 20px;
-    text-align: center;
-}
-
 .go-to-login-button {
-    background-color: #007bff;
+    background-color: #8c3c76; /* Morado oscuro */
     color: white;
+    font-family: 'Oswald', sans-serif;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -214,68 +201,12 @@ textarea {
 }
 
 .go-to-login-button:hover {
-    background-color: #0056b3;
-}
-
-.video-preview-container {
-    margin-top: 20px;
-    text-align: center;
+    background-color: #702f5e;
 }
 
 .video-preview-container h2 {
     font-size: 18px;
-    color: #333;
+    font-family: 'Oswald', sans-serif;
+    color: #dba4c0; /* Rosa pastel */
     margin-bottom: 10px;
 }
-.dashboard-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-  }
-  
-  .upload-section {
-    width: 100%;
-    max-width: 600px;
-  }
-  
-  .file-preview {
-    width: 100%;
-    max-width: 600px;
-    height: 200px; /* Altura fija para evitar el salto */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    overflow: hidden;
-  }
-  
-  .image-preview,
-  .video-preview,
-  .audio-preview {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; /* Ajusta el contenido sin deformarlo */
-  }
-  
-  .error-message {
-    color: red;
-    font-size: 14px;
-    min-height: 20px; /* Asegura que siempre haya espacio para el mensaje */
-  }
-  
-  .video-preview-container {
-    width: 100%;
-    max-width: 600px;
-    margin-top: 20px;
-  }
-  
-  .video-preview-container video {
-    width: 100%;
-    height: auto;
-  }
-  

@@ -102,8 +102,8 @@ const Register = () => {
           </div>
 
           <div className="form-actions">
-            <button type="submit" className="register-button">Registrar</button>
-            <button type="button" onClick={handleBack} className="register-button">Volver al Menú Principal</button>
+            <button type="submit" className="register-button">COMPLETAR</button>
+            <button type="button" onClick={handleBack} className="register-button">MENU PRINCIPAL</button>
           </div>
         </form>
       </div>

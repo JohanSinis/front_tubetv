@@ -50,7 +50,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <div className="login-card">
-        <h1 className="login-title">TUBE TV</h1>
+        <h1 className="login-title">TUB3 TV</h1>
         <form onSubmit={handleLogin} className="login-form">
           <input
             type="email"
@@ -69,7 +69,7 @@ const Login = () => {
             required
           />
           <button type="submit" className="login-button">
-            Ingresar
+            INGRESAR
           </button>
         </form>
         <p className="login-footer">
@@ -78,7 +78,7 @@ const Login = () => {
             onClick={() => navigate('/register')}
             className="login-link"
           >
-            Regístrate aquí
+            REGISTRATE AHORA
           </span>
         </p>
       </div>

@@ -1,9 +1,9 @@
-/* Importar fuente Lemon Days */
-@import url('https://fonts.googleapis.com/css2?family=Lemon+Days&display=swap');
+/* Importar fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=Open+Sans:wght@700&family=Poppins:wght@500&display=swap');
 
 /* Estilos generales */
 body {
-    font-family: 'Lemon Days', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Fuente principal */
     background: linear-gradient(135deg, #63586e 0%, #9b25d1 100%);
     margin: 0;
     display: flex;
@@ -29,16 +29,17 @@ body {
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    width: 350px;
+    width: 450px;
     text-align: center;
     backdrop-filter: blur(10px); /* Efecto de desenfoque */
 }
 
 /* Título */
 .login-title {
+    font-family: 'Oswald', sans-serif; /* Fuente para el título */
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #ffffff; /* Color vibrante */
+    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -51,13 +52,14 @@ body {
 
 /* Inputs */
 .login-input {
+    font-family: 'Poppins', sans-serif; /* Fuente para los inputs */
     padding: 0.8rem;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1rem;
     transition: all 0.3s ease;
     background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
-    color: #ffffff;
+    color: #351111;
 }
 
 .login-input::placeholder {
@@ -72,6 +74,7 @@ body {
 
 /* Botón */
 .login-button {
+    font-family: 'Open Sans', sans-serif; /* Fuente para el botón */
     background: #dba4c0;
     color: #fff;
     padding: 0.8rem;
@@ -90,11 +93,13 @@ body {
 
 /* Footer */
 .login-footer {
+    font-family: 'Poppins', sans-serif; /* Fuente para el footer */
     margin-top: 1.5rem;
     font-size: 0.9rem;
 }
 
 .login-link {
+    font-family: 'Poppins', sans-serif; /* Fuente para el enlace */
     color: #ffffff;
     cursor: pointer;
     text-decoration: underline;
@@ -102,6 +107,6 @@ body {
 }
 
 .login-link:hover {
-    color: #e05950;
+    color: #e478cc;
     text-decoration: none;
 }
